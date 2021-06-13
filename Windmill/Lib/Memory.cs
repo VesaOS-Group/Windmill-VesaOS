@@ -65,11 +65,13 @@ namespace Cosmos_1.Windmill.Lib
             int loc = GetRamLoc(super);
             super.index++;
 
-            for (int i = 0; super.program[super.index] != 0; i++)
+            int i = 0;
+            for (; super.program[super.index] != 0; i++)
             {                
                 super.ram[loc + i] = super.program[super.index];
                 super.index++;
             }
+            super.ram[loc + i + 1] = 0; //null terminate
         }
 
         //returns x bytes at loc

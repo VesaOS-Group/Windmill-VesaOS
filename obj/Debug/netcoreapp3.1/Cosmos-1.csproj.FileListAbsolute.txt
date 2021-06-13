@@ -11,3 +11,16 @@ D:\Users\ALMA\source\repos\Cosmos-1\obj\Debug\netcoreapp3.1\Cosmos-1.csproj.Core
 D:\Users\ALMA\source\repos\Cosmos-1\obj\Debug\netcoreapp3.1\Cosmos-1.dll
 D:\Users\ALMA\source\repos\Cosmos-1\obj\Debug\netcoreapp3.1\Cosmos-1.pdb
 D:\Users\ALMA\source\repos\Cosmos-1\obj\Debug\netcoreapp3.1\Cosmos-1.genruntimeconfig.cache
+E:\Codsie\Windmill-root\Windmill\bin\Debug\netcoreapp3.1\Cosmos-1.exe
+E:\Codsie\Windmill-root\Windmill\bin\Debug\netcoreapp3.1\Cosmos-1.deps.json
+E:\Codsie\Windmill-root\Windmill\bin\Debug\netcoreapp3.1\Cosmos-1.runtimeconfig.json
+E:\Codsie\Windmill-root\Windmill\bin\Debug\netcoreapp3.1\Cosmos-1.runtimeconfig.dev.json
+E:\Codsie\Windmill-root\Windmill\bin\Debug\netcoreapp3.1\Cosmos-1.dll
+E:\Codsie\Windmill-root\Windmill\bin\Debug\netcoreapp3.1\Cosmos-1.pdb
+E:\Codsie\Windmill-root\Windmill\obj\Debug\netcoreapp3.1\Cosmos-1.csprojAssemblyReference.cache
+E:\Codsie\Windmill-root\Windmill\obj\Debug\netcoreapp3.1\Cosmos-1.AssemblyInfoInputs.cache
+E:\Codsie\Windmill-root\Windmill\obj\Debug\netcoreapp3.1\Cosmos-1.AssemblyInfo.cs
+E:\Codsie\Windmill-root\Windmill\obj\Debug\netcoreapp3.1\Cosmos-1.csproj.CoreCompileInputs.cache
+E:\Codsie\Windmill-root\Windmill\obj\Debug\netcoreapp3.1\Cosmos-1.dll
+E:\Codsie\Windmill-root\Windmill\obj\Debug\netcoreapp3.1\Cosmos-1.pdb
+E:\Codsie\Windmill-root\Windmill\obj\Debug\netcoreapp3.1\Cosmos-1.genruntimeconfig.cache

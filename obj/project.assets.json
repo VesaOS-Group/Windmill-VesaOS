@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "D:\\Users\\ALMA\\.nuget\\packages\\": {}
+    "C:\\Users\\matei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\ALMA\\source\\repos\\Cosmos-1\\Cosmos-1.csproj",
+      "projectUniqueName": "E:\\Codsie\\Windmill-root\\Windmill\\Cosmos-1.csproj",
       "projectName": "Cosmos-1",
-      "projectPath": "D:\\Users\\ALMA\\source\\repos\\Cosmos-1\\Cosmos-1.csproj",
-      "packagesPath": "D:\\Users\\ALMA\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\ALMA\\source\\repos\\Cosmos-1\\obj\\",
+      "projectPath": "E:\\Codsie\\Windmill-root\\Windmill\\Cosmos-1.csproj",
+      "packagesPath": "C:\\Users\\matei\\.nuget\\packages\\",
+      "outputPath": "E:\\Codsie\\Windmill-root\\Windmill\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Users\\ALMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matei\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\ALMA\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "C:\\Users\\matei\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

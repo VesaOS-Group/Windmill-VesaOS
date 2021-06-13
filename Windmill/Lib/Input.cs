@@ -34,9 +34,11 @@ namespace Cosmos_1.Windmill.Lib
         public static void ReadLine(Windmill super)
         {
             int loc = Memory.GetRamLoc(super);
-            string input = Console.ReadLine() + (char) 0; //end of string
-            for (int i = 0; i < input.Length; i++)
+            string input = Console.ReadLine(); //end of string
+            int i = 0;
+            for (; i < input.Length; i++)
                 super.ram[loc + i] = (byte) input[i];
+            super.ram[loc + i] = 0;
         }
 
         private static void ReadKey(Windmill super)

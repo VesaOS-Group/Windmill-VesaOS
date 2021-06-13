@@ -8,10 +8,14 @@ namespace Cosmos_1
         {
             Windmill.Windmill runner = new Windmill.Windmill(256, new byte[]
             {
-                //add hello world to memory starting at loc 0x00
-                0x12, 0x00, 0x00, 0x00, 0x0F, 0x48, 0x65, 0x6C, 0x6C, 0x6F, 0x20, 0x77, 0x6F, 0x72, 0x6C, 0x64, 0x21, 0x00,
-                //print string starting at loc 0x00
+                //add "Input: " to memory starting at loc 0x0F
+                0x12, 0x00, 0x00, 0x00, 0x0F, 0x49, 0x6E, 0x70, 0x75, 0x74, 0x3A, 0x20, 0x00,
+                //print string starting at loc 0x0F
                 0x21, 0x00, 0x00, 0x00, 0x0F, 
+                //add input to memory starting at loc 0x2F
+                0x31, 0x00, 0x00, 0x00, 0x2F,
+                //print string starting at loc 0x0F
+                0x21, 0x00, 0x00, 0x00, 0x2F, 
                 //end program
                 0x00,
             });
@@ -20,7 +24,13 @@ namespace Cosmos_1
             for (; !runner.program[runner.index].Equals(0);)
                 runner.RunNext();
 
+            watch.Stop();
+            var elapsedMs = watch.ElapsedMilliseconds;
+            Console.Write("\n-Program exited. Execution time: " + elapsedMs + "-\n");
+
             if (false) //enable or disable memory map
+            {
+                Console.Write("\n-Memory map-\n");
                 for (int i = 0; i < 256;)
                 {
                     Console.Write(i + " -> ");
@@ -31,10 +41,7 @@ namespace Cosmos_1
                     }
                     Console.WriteLine();
                 }
-
-            watch.Stop();
-            var elapsedMs = watch.ElapsedMilliseconds;
-            Console.WriteLine("\nExecution time: "+ elapsedMs);
+            }
         }
     }
 }

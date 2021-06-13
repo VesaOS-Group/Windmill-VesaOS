@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "D:\\Users\\ALMA\\.dotnet\\store\\|arch|\\|tfm|",
-      "D:\\Users\\ALMA\\.nuget\\packages"
+      "C:\\Users\\matei\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\matei\\.nuget\\packages"
     ]
   }
 }
